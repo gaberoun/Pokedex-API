@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.card {
+  display: grid;
+  background-color: lightskyblue;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+img {
+  background-color: azure;
+  padding: 0.2rem;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+span {
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
